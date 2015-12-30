@@ -103,6 +103,7 @@ namespace Microsoft.AspNet.Server.Kestrel.GeneratedCode
                 "Expires",
                 "Last-Modified"
             };
+            // http://www.w3.org/TR/cors/#syntax
             var corsRequestHeaders = new[]
             {
                 "Origin",
@@ -145,6 +146,7 @@ namespace Microsoft.AspNet.Server.Kestrel.GeneratedCode
                 "Transfer-Encoding",
                 "Content-Length",
             };
+            // http://www.w3.org/TR/cors/#syntax
             var corsResponseHeaders = new[]
             {
                 "Access-Control-Allow-Credentials",
